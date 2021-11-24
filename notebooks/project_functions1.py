@@ -14,8 +14,9 @@ def load_and_process(location):
         .rename(columns={' Never-married': 'Marital Stat', ' Adm-clerical': 'Position'})
         .rename(columns={' White': 'Race', ' Male': 'Gender', ' United-States': 'Country', ' <=50K':'Income'})
         .drop_duplicates()
-        .fillna(np.nan)
         .sort_values("Age", ascending=True)
+        .reset_index()
+        .drop(columns=['index'])
 
     )
 
