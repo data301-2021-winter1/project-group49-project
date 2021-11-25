@@ -1,0 +1,613 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='dataprocessedved2' inline='true' name='federated.1img3tc0an3dbk18yx67m0qm344y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataprocessedved2' name='textscan.0jqruc01sl02e91dbt3uz0tbmvev'>
+            <connection class='textscan' directory='C:/Users/vball/Desktop/2021-Term 1/Data 301/project-group49-project/data/processed' filename='dataprocessedved2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0jqruc01sl02e91dbt3uz0tbmvev' name='dataprocessedved2.csv' table='[dataprocessedved2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Industry' ordinal='2' />
+            <column datatype='string' name='Education' ordinal='3' />
+            <column datatype='string' name='Marital Stat' ordinal='4' />
+            <column datatype='string' name='Position' ordinal='5' />
+            <column datatype='string' name='Race' ordinal='6' />
+            <column datatype='string' name='Gender' ordinal='7' />
+            <column datatype='string' name='Country' ordinal='8' />
+            <column datatype='string' name='Income' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0jqruc01sl02e91dbt3uz0tbmvev' name='dataprocessedved2.csv' table='[dataprocessedved2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Industry' ordinal='2' />
+            <column datatype='string' name='Education' ordinal='3' />
+            <column datatype='string' name='Marital Stat' ordinal='4' />
+            <column datatype='string' name='Position' ordinal='5' />
+            <column datatype='string' name='Race' ordinal='6' />
+            <column datatype='string' name='Gender' ordinal='7' />
+            <column datatype='string' name='Country' ordinal='8' />
+            <column datatype='string' name='Income' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital Stat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Marital Stat]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Marital Stat</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Race]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Race</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Income]</local-name>
+            <parent-name>[dataprocessedved2.csv]</parent-name>
+            <remote-alias>Income</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='dataprocessedved2.csv' datatype='table' name='[__tableau_internal_object_id__].[dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dataprocessedved2.csv' id='dataprocessedved2.csv_99B8175D382E4187A60899487A1CD245'>
+            <properties context=''>
+              <relation connection='textscan.0jqruc01sl02e91dbt3uz0tbmvev' name='dataprocessedved2.csv' table='[dataprocessedved2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Industry' ordinal='2' />
+                  <column datatype='string' name='Education' ordinal='3' />
+                  <column datatype='string' name='Marital Stat' ordinal='4' />
+                  <column datatype='string' name='Position' ordinal='5' />
+                  <column datatype='string' name='Race' ordinal='6' />
+                  <column datatype='string' name='Gender' ordinal='7' />
+                  <column datatype='string' name='Country' ordinal='8' />
+                  <column datatype='string' name='Income' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Education vs Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataprocessedved2' name='federated.1img3tc0an3dbk18yx67m0qm344y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1img3tc0an3dbk18yx67m0qm344y'>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='Count' name='[pcto:cnt:Gender:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Gender:qk]' />
+              <color column='[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Gender:qk]' />
+              <text column='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Gender:nk]' />
+              <text column='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Education:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BEDAEE7C-DFE1-4590-905D-1E895DD397D1}' />
+    </worksheet>
+    <worksheet name='Education vs Income'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataprocessedved2' name='federated.1img3tc0an3dbk18yx67m0qm344y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1img3tc0an3dbk18yx67m0qm344y'>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Income]' role='dimension' type='nominal' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='None' name='[none:Income:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='Count' name='[pcto:cnt:Income:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Income:qk:2]</rows>
+        <cols>[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Education:nk]</cols>
+      </table>
+      <simple-id uuid='{6CC79D5A-5A8C-4C1B-ADFD-FE85C1FA9179}' />
+    </worksheet>
+    <worksheet name='Gender vs Income'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataprocessedved2' name='federated.1img3tc0an3dbk18yx67m0qm344y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1img3tc0an3dbk18yx67m0qm344y'>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Income]' role='dimension' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='None' name='[none:Income:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='Count' name='[pcto:cnt:Income:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Income:qk]</rows>
+        <cols>[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Gender:nk]</cols>
+        <percentages enabled='true' mode='column' />
+      </table>
+      <simple-id uuid='{D078C785-ACB5-415A-AA31-E36E6C86DE24}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Does education play a factor in gender pay disparity?'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='4' type-v2='layout-basic' w='98400' x='800' y='1000'>
+            <zone h='96000' id='7' param='horz' type-v2='layout-flow' w='96800' x='1600' y='2000'>
+              <zone h='96000' id='5' type-v2='layout-basic' w='80800' x='1600' y='2000'>
+                <zone h='48000' id='3' name='Education vs Income' w='80800' x='1600' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='48000' id='9' name='Education vs Gender' w='80800' x='1600' y='2000'>
+                  <layout-cache fixed-size-w='152' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='96000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='82400' y='2000'>
+                <zone h='10500' id='8' name='Education vs Income' pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' type-v2='color' w='16000' x='82400' y='2000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='10' name='Education vs Gender' pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Gender:qk]' type-v2='color' w='16000' x='82400' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='75375' id='11' name='Gender vs Income' w='16000' x='82400' y='22625'>
+                  <layout-cache cell-count-w='2' minheight='299' non-cell-size-w='94' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='8' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='48000' id='9' is-fixed='true' name='Education vs Gender' w='80800' x='1600' y='2000'>
+                  <layout-cache fixed-size-w='152' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='10' name='Education vs Gender' pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Gender:qk]' type-v2='color' w='16000' x='82400' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='75375' id='11' is-fixed='true' name='Gender vs Income' w='16000' x='82400' y='22625'>
+                  <layout-cache cell-count-w='2' minheight='299' non-cell-size-w='94' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48000' id='3' is-fixed='true' name='Education vs Income' w='80800' x='1600' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10500' id='8' name='Education vs Income' pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' type-v2='color' w='16000' x='82400' y='2000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{968A36EE-F429-4569-9753-36310E828BD6}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='dashboard' maximized='true' name='Does education play a factor in gender pay disparity?'>
+      <viewpoints>
+        <viewpoint name='Education vs Gender' />
+        <viewpoint name='Education vs Income'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender vs Income'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{08740D46-4742-4663-AD13-17923DC3AD26}' />
+    </window>
+    <window class='worksheet' name='Education vs Income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{55BC268F-33FA-4DA6-883A-9358E99E0AF7}' />
+    </window>
+    <window class='worksheet' name='Education vs Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[pcto:cnt:Gender:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EF7395B1-BAA4-4B9D-AAAC-FC56468779D2}' />
+    </window>
+    <window class='worksheet' name='Gender vs Income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1img3tc0an3dbk18yx67m0qm344y].[none:Income:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E447BA69-E4D6-47CE-A71D-246C340224FF}' />
+    </window>
+  </windows>
+</workbook>
