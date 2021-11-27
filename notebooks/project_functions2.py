@@ -13,6 +13,7 @@ def load_and_process(location):
         .rename(columns={'39': 'Age', ' State-gov': 'Industry', ' Bachelors': 'Education'})
         .rename(columns={' Never-married': 'Marital Stat', ' Adm-clerical': 'Position'})
         .rename(columns={' White': 'Race', ' Male': 'Gender', ' United-States': 'Country', ' <=50K':'Income'})
+        .fillna(np.nan)
         .drop_duplicates()
         .dropna()
         .sort_values("Age", ascending=True)

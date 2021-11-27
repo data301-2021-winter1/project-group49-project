@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5916774&assignment_repo_type=AssignmentRepo)
-# Group 049 - {Do you have full control over your success?}
+# Group 049 - Do you have full control over your success?
 
 - Your title can change over time.
 
@@ -13,7 +13,6 @@ Our area of interest in related to social economics and if certain attributes to
 
 ## Describe your dataset in about 150-200 words
 
-Our dataset 
 Our dataset comes from the UCI Machine Learning Repository made available from University of California Ivine. Our data comprises of personal data from various people including education, age, workclass, race and many other data points. Our data was donated to UCI on May 1st 1996. The purpose of our dataset is to give us a clearer picture as to the effect certain personal attributes have to a persons wealth and economic wellbeing. Our data was collected via census data from 1994. 
 
 ## Team Members
