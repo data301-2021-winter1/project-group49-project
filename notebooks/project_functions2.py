@@ -23,7 +23,6 @@ def load_and_process(location):
         
 
     )
-    df = df["Income"].replace({"<=50K": "1", ">50K": "0"}, inplace=True)
 
     return df
 
