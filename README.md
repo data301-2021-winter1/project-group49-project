@@ -2,6 +2,7 @@
 # Group 049 - Do you have full control over your success?
 
 - Aaron's Research Question: Does race and gender affect earnings?
+- Ved's Research Question: What is the relationship between income, education level, gender?
 
 ## Milestones
 
